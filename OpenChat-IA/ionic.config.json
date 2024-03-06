@@ -1,0 +1,7 @@
+{
+  "name": "OpenChat-IA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

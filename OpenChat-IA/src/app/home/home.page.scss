@@ -1,0 +1,43 @@
+.chat-item {
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+
+  &.bot {
+    --background: transparent;
+  }
+}
+
+.text-box-item {
+  --border-radius: 15px;
+  --background: var(--ion-color-light);
+}
+
+.background-image {
+  // --background: url('../../assets/anim.gif') no-repeat center center fixed;
+  --background-size: cover;
+}
+
+.chat-icon {
+  font-size: 50px;
+
+}
+
+ion-badge {
+  padding: 15px;
+}
+
+.w-space {
+  white-space: pre-line;
+  text-align: justify;
+
+}
+
+.empty {
+  text-align: center;
+  padding-top: 25vh;
+  opacity: 40%;
+
+  ion-icon {
+    font-size: 20vh;
+  }
+}
